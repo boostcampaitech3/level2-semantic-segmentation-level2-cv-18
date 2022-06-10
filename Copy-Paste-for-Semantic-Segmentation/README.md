@@ -82,13 +82,6 @@ example of `copy_paste.py`:
 
 main image + source image:
 
-![image](/image.jpg)
+![copy_paste_36](https://user-images.githubusercontent.com/63439911/173065596-f7b28366-0178-4e68-ba04-7dab1ba49b9e.jpg)
 
-main anno + source anno:
-
-![image](/anno.png)
-
-visualization:
-
-![vis](/vis.jpg)
 
