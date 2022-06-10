@@ -77,7 +77,7 @@
 │   ├── fpn             
 │   ├── knet             
 │   ├── ocrnet_hrnet             
-│   └── upernet_cocnext             
+│   └── upernet_convnext             
 ├── inference.ipynb       
 └── train.ipynb       
 
@@ -85,19 +85,19 @@
 
 ## 🧪Experiments
 
-| Backbone  | Architecture | public mIoU | private mIoU | Augmentation |
+| Backbone  | Architecture | public mIoU | private mIoU | Pseudo Labeling |
 | :------: | :------: | :------: | :------: | :------: |
-| Swin-L  | knet+upernet | 0.8123 | 0.7445 | RandomBrightnessContrast, <br>HueSaturationValue, <br> GaussNoise, CLAHE, blur
-| ConvNext XL | upernet | 0.8225 | 0.7527 | ShiftScaleRotate, Affine, <br> RandomBrightnessContrast, <br> CLAHE
-| ConvNext XL | knet+upernet  | 0.7742 | 0.7293 | Resize,RandomCrop, <br> RandomFlip, <br> PhotoMetricDistortion
-| BEiT-L | knet+upernet  | 0.8148 | 0.7459 | Resize, RandomCrop, <br> RandomFlip, <br> PhotoMetricDistortion
-| SVT-L | knet+upernet | 0.8181 | 0.7443 |
+| Swin-L  | knet+upernet | 0.8123 | 0.7445 | o |
+| ConvNext XL | upernet | 0.8181 | 0.7459 |  |
+| ConvNext XL | knet+upernet  | 0.8225 | 0.7527 | o |
+| BEiT-L | knet+upernet  | 0.7742 | 0.7459 | o |
+| SVT-L | knet+upernet | 0.8148 | 0.7443 |
 
 ## 🏆Result
 
 ### 최종 제출 모델
 
-| Backbone  | Architecture | public mIoU | private mIoU |
+| Backbone | Architecture | public mIoU | private mIoU |
 | :------: | :------: | :------: | :------: |
 | ConvNext XL | knet+upernet | 0.8225 | 0.7527 |
 | Hard voting ensemble | x | 0.8205 | 0.7475
