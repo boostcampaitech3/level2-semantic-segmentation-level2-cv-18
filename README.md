@@ -75,15 +75,32 @@ pip install -r requirements.txt
 | Backbone  | Architecture | public mIoU | private mIoU |
 | :------: | :------: | :------: | :------: |
 | Swin-L  | knet+upernet | 0.8123 | 0.7445 |
-| convNext XL | upernet | 0.8225 | 0.7527 |
-| convNext XL | knet+upernet  | 0.7742 | 0.7293 |
+| ConvNext XL | upernet | 0.8225 | 0.7527 |
+| ConvNext XL | knet+upernet  | 0.7742 | 0.7293 |
 | BEiT-L | knet+upernet  | 0.8148 | 0.7459 |
 | SVT-L | knet+upernet | 0.8181 | 0.7443 |
 
+## 🏆Result
 
-## Ensemble
+### 최종 제출 모델
 
-```
+| Backbone  | Architecture | public mIoU | private mIoU |
+| :------: | :------: | :------: | :------: |
+| ConvNext XL | knet+upernet | 0.8225 | 0.7527 |
+| Hard voting ensemble | x | 0.8205 | 0.7475
 
-```
+### Hard Voting Ensemble을 적용한 모델들
 
+| Backbone  | Architecture |
+| :------: | :------: |
+| ConvNext XL | upernet |
+| ConvNext XL | knet+upernet |
+| Swin-L | knet+upernet |
+| SVT-L | upernet |
+
+### 리더보드 결과
+- 총 19 팀 참여
+- Public : 3등 -> Private : 6등
+- Public : 0.8225 -> Private : 0.7527
+
+![image](https://user-images.githubusercontent.com/85156021/173049934-bf6894ae-3489-465f-aef5-bd4a04cf0c3a.png)
