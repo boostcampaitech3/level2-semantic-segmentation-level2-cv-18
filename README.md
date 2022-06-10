@@ -100,10 +100,9 @@
 | Backbone | Architecture | public mIoU | private mIoU |
 | :------: | :------: | :------: | :------: |
 | ConvNext XL | knet+upernet | 0.8225 | 0.7527 |
-| Hard voting ensemble | x | 0.8205 | 0.7475
+| Hard voting ensemble | ** **아래참조** | 0.8205 | 0.7475
 
-### Hard Voting Ensemble에 사용한 모델들
-
+** **Hard Voting Ensemble에 사용한 모델들**
 | Backbone  | Architecture |
 | :------: | :------: |
 | ConvNext XL | upernet |
