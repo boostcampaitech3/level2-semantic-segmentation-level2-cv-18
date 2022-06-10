@@ -70,13 +70,15 @@ pip install -r requirements.txt
 ```
 
 
-## Model Information
+## 🧪Experiments
 
-| Model  | public mIoU | private mIoU | configs |
-| ------ | ----------- | ------------ | ------- |
-| hrnet  |             |              |         |
-| ocrnet |             |              |         |
-
+| Backbone  | Architecture | public mIoU | private mIoU |
+| :------: | :------: | :------: | :------: |
+| Swin-L  | knet+upernet | 0.8123 | 0.7445 |
+| convNext XL | upernet | 0.8225 | 0.7527 |
+| convNext XL | knet+upernet  | 0.7742 | 0.7293 |
+| BEiT-L | knet+upernet  | 0.8148 | 0.7459 |
+| SVT-L | knet+upernet | 0.8181 | 0.7443 |
 
 
 ## Ensemble
