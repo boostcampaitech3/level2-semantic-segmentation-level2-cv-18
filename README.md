@@ -87,12 +87,12 @@
 
 ## 🧪Experiments
 
-| Backbone  | Architecture | public mIoU | private mIoU |
-| :------: | :------: | :------: | :------: |
-| Swin-L  | knet+upernet | 0.8123 | 0.7445 |
-| ConvNext XL | upernet | 0.8225 | 0.7527 |
-| ConvNext XL | knet+upernet  | 0.7742 | 0.7293 |
-| BEiT-L | knet+upernet  | 0.8148 | 0.7459 |
+| Backbone  | Architecture | public mIoU | private mIoU | Augmentation |
+| :------: | :------: | :------: | :------: | :------: |
+| Swin-L  | knet+upernet | 0.8123 | 0.7445 | RandomBrightnessContrast, <br>HueSaturationValue, <br> GaussNoise, CLAHE, blur
+| ConvNext XL | upernet | 0.8225 | 0.7527 | ShiftScaleRotate, Affine, <br> RandomBrightnessContrast, <br> CLAHE
+| ConvNext XL | knet+upernet  | 0.7742 | 0.7293 | Resize,RandomCrop, <br> RandomFlip, <br> PhotoMetricDistortion
+| BEiT-L | knet+upernet  | 0.8148 | 0.7459 | Resize, RandomCrop, <br> RandomFlip, <br> PhotoMetricDistortion
 | SVT-L | knet+upernet | 0.8181 | 0.7443 |
 
 ## 🏆Result
@@ -104,7 +104,7 @@
 | ConvNext XL | knet+upernet | 0.8225 | 0.7527 |
 | Hard voting ensemble | x | 0.8205 | 0.7475
 
-### Hard Voting Ensemble에 용한 모델들
+### Hard Voting Ensemble에 사용한 모델들
 
 | Backbone  | Architecture |
 | :------: | :------: |
