@@ -65,23 +65,21 @@
 ## 🧱Structure
 ├── baseline  
 │   ├── baseline_fcn_resnet50.ipynb  
-│   ├── rquirements.txt
-│   ├── utils.py
-│   ├── viz.py
-│   └── requirements.txt  
-│ 
-├── mmsegmentation  
-│   ├── deeplab3  
-│   ├── deeplab3plus 
-│   ├── fcn_hrnet  
-│   ├── fpn
-│   ├── knet
-│   ├── ocrnet_hrnet
-│   └── upernet_convnext
-│   ├── ocrnet_hrnet
-└── └── upernet_convnext
-├── inference.ipynb
-└── train.ipynb  
+│   ├── rquirements.txt   
+│   ├── utils.py    
+│   ├── viz.py      
+│   └── requirements.txt      
+│     
+├── mmsegmentation          
+│   ├── deeplab3          
+│   ├── deeplab3plus            
+│   ├── fcn_hrnet             
+│   ├── fpn             
+│   ├── knet             
+│   ├── ocrnet_hrnet             
+│   └── upernet_cocnext             
+├── inference.ipynb       
+└── train.ipynb       
 
 ![img](README.assets/4abeace6-4934-473a-b8d1-f3d35cfc5fb8..png)
 
