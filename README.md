@@ -85,3 +85,6 @@ pip install -r requirements.txt
 ```
 [ensemble](https://github.com/boostcampaitech3/level2-semantic-segmentation-level2-cv-18/tree/kihoon/baseline/ensemble)
 
+## Compare
+### Ensemble 전 후 비교  
+[compare](https://github.com/boostcampaitech3/level2-semantic-segmentation-level2-cv-18/tree/kihoon/baseline/compare)
