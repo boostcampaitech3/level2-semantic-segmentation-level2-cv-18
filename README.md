@@ -64,12 +64,6 @@
 
 ![img](README.assets/4abeace6-4934-473a-b8d1-f3d35cfc5fb8..png)
 
-## Install Requirements
-```
-pip install -r requirements.txt
-```
-
-
 ## 🧪Experiments
 
 | Backbone  | Architecture | public mIoU | private mIoU |
@@ -104,3 +98,11 @@ pip install -r requirements.txt
 - Public : 0.8225 -> Private : 0.7527
 
 ![image](https://user-images.githubusercontent.com/85156021/173049934-bf6894ae-3489-465f-aef5-bd4a04cf0c3a.png)
+
+## 💡Usage
+
+### Install Requirements
+```
+pip install -r requirements.txt
+```
+
