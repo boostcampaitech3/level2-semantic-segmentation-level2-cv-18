@@ -89,7 +89,7 @@ pip install -r requirements.txt
 | ConvNext XL | knet+upernet | 0.8225 | 0.7527 |
 | Hard voting ensemble | x | 0.8205 | 0.7475
 
-### Hard Voting Ensemble을 적용한 모델들
+### Hard Voting Ensemble에 용한 모델들
 
 | Backbone  | Architecture |
 | :------: | :------: |
