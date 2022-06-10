@@ -75,12 +75,13 @@ pip install -r requirements.txt
 | ------ | ----------- | ------------ | ------- |
 | hrnet  |             |              |         |
 | ocrnet |             |              |         |
+| convNext |   0.8179        | 0.7464 | [convNext+UperNet](https://github.com/boostcampaitech3/level2-semantic-segmentation-level2-cv-18/blob/kihoon/mmsegmentation/configs/custom/upernet_convnext_xlarge_fp16_640x640_160k_ade20k_pseudo.py)
 
 
 
 ## Ensemble
 
 ```
-
 ```
+[ensemble](https://github.com/boostcampaitech3/level2-semantic-segmentation-level2-cv-18/tree/kihoon/baseline/ensemble)
 
