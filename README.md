@@ -95,7 +95,7 @@
 
 #### [참고]
 
-Pseudo Labeling(○): 기본 Pseudo Labeling 기법으로 학습
+Pseudo Labeling(○): 기본 Pseudo Labeling 기법으로 학습 <br>
 Pseudo Labeling(△): 학습의 절반은 Pseudo Labeling을 사용하고 이후 절반은 사용하지 않은 기본 데이터셋으로 학습
 
 ## 🏆Result
