@@ -70,10 +70,10 @@ pip install -r requirements.txt
 ```
 
 
-## Model Information
+## 🧪Experiments
 
-| Model  | public mIoU | private mIoU | configs |
-| ------ | ----------- | ------------ | ------- |
+| Backbone  | Architecture | public mIoU | private mIoU |
+| :------: | :------: | :------: | :------: |
 | hrnet  |             |              |         |
 | ocrnet |             |              |         |
 
