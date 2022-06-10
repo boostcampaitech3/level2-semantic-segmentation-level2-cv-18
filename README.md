@@ -90,8 +90,8 @@
 | Swin-L  | knet+upernet | 0.8123 | 0.7445 | ○ |
 | ConvNext XL | upernet | 0.8181 | 0.7443 | ○ |
 | ConvNext XL | knet+upernet  | 0.8225 | 0.7527 | △ |
-| BEiT-L | knet+upernet  | 0.7742 |  0.7293 | ○ |
-| SVT-L | knet+upernet | 0.8148 |  0.7423 | ○ |
+| BEiT-L | upernet  | 0.7742 |  0.7293 | ○ |
+| SVT-L | upernet | 0.8148 |  0.7423 | ○ |
 
 #### [참고]
 
@@ -109,12 +109,12 @@ Pseudo Labeling(△): 학습의 절반은 Pseudo Labeling을 사용하고 이후
 
 ### Hard Voting Ensemble에 사용한 모델들
 
-| Backbone  | Architecture |
-| :------: | :------: |
-| ConvNext XL | upernet |
-| ConvNext XL | knet+upernet |
-| Swin-L | knet+upernet |
-| SVT-L | upernet |
+| Backbone  | Architecture | public mIoU |
+| :------: | :------: | :------: |
+| ConvNext XL | upernet | 0.8181 |
+| ConvNext XL | knet+upernet | 0.8225 |
+| Swin-L | knet+upernet | 0.8123 |
+| SVT-L | upernet | 0.8148 |
 
 ### 리더보드 결과
 - 총 19 팀 참여
