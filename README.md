@@ -1,5 +1,6 @@
-# [P stage2] CV 18조 언제오르조
+# 🚀[LEVEL3 P stage2] 언제오르조
 
+## 🔥 Member 🔥
 <table>
   <tr height="125px">
     <td align="center" width="120px">
@@ -44,7 +45,7 @@
   </tr>
 </table>
 
-## Project Overview
+## 🔍Project Overview
 바야흐로 대량 생산, 대량 소비의 시대. 우리는 많은 물건이 대량으로 생산되고, 소비되는 시대를 살고 있습니다. 하지만 이러한 문화는 '쓰레기 대란', '매립지 부족'과 같은 여러 사회 문제를 낳고 있습니다.  
 ![image](https://user-images.githubusercontent.com/63439911/162978954-2fe259ac-a365-444b-b4d1-9444eba09df7.png)  분리수거는 이러한 환경 부담을 줄일 수 있는 방법 중 하나입니다. 잘 분리배출 된 쓰레기는 자원으로서 가치를 인정받아 재활용되지만, 잘못 분리배출 되면 그대로 폐기물로 분류되어 매립 또는 소각되기 때문입니다.
 
@@ -55,11 +56,11 @@
 - **Input :** 쓰레기 객체가 담긴 이미지가 모델의 인풋으로 사용됩니다. segmentation annotation은 COCO format으로 제공됩니다.
 - **Output :** 모델은 pixel 좌표에 따라 카테고리 값을 리턴합니다. 이를 submission 양식에 맞게 csv 파일을 만들어 제출합니다.
 
-## Dataset
-- Train Images : 3272, Test Images : 624
+## 🗂️ Dataset
+- Train Images : 3272
+- Test Images : 624
 - 11 class : Background, General trash, Paper, Paper pack, Metal, Glass, Plastic, Styrofoam, Plastic bag, Battery, Clothing
 - Image Size : 512x512
-  
 
 ![img](README.assets/4abeace6-4934-473a-b8d1-f3d35cfc5fb8..png)
 
