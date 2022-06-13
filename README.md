@@ -80,7 +80,7 @@
 │   ├── segformer_mit-b5             
 │   ├── setr             
 │   ├── ocrnet_hrnet             
-│   └── upernet_convnext             
+│   └── upernet_convnext             
 ├── inference.ipynb       
 └── train.ipynb       
 
