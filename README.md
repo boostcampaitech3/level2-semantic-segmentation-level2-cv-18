@@ -75,10 +75,10 @@
 │   ├── deeplab3plus            
 │   ├── fcn_hrnet             
 │   ├── fpn             
-│   ├── knet
-│   ├── knet_upernet
-│   ├── segformer_mit-b5
-│   ├── setr
+│   ├── knet             
+│   ├── knet_upernet             
+│   ├── segformer_mit-b5             
+│   ├── setr             
 │   ├── ocrnet_hrnet             
 │   └── upernet_convnext             
 ├── inference.ipynb       
