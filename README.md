@@ -77,6 +77,7 @@
 │   ├── fpn             
 │   ├── knet             
 │   ├── knet_upernet             
+│   ├── beit_upernet             
 │   ├── segformer_mit-b5             
 │   ├── setr             
 │   ├── ocrnet_hrnet             
